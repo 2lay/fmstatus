@@ -84,8 +84,8 @@ chmod +x ./server
 
 ### Live Demo
 You can view the latest song being played at:
-- API Endpoint: `https://fm.2lay.me/api/nowplaying`
-- Swagger UI (if enabled): `https://fm.2lay.me/swagger`
+- [API Endpoint](https://fm.2lay.net/api/nowplaying)
+- [Swagger UI (if enabled)](https://fm.2lay.net/swagger)
 
 ### License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
