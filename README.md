@@ -23,7 +23,7 @@ Creates a minified JavaScript file:
 ```bash
 bun run build@javascript
 ```
-The JavaScript file will be created at `./dist/index.js`
+The JavaScript file will be created at `./dist/server.js`
 
 ### Running Production Build
 
@@ -34,7 +34,7 @@ After building, you can run the application using either method:
 ./dist/server
 
 # OR run the JavaScript build
-bun ./dist/index.js
+bun ./dist/server.js
 ```
 
 Note that some Linux distros might not like it, so you may need to run:
