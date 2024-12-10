@@ -1,0 +1,18 @@
+{
+  "name": "fmstatus",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun build --compile --minify-whitespace --minify-syntax --target bun --outfile ./dist/server ./src/index.ts",
+    "build@javascript": "bun build --compile --minify-whitespace --minify-syntax --target bun --outfile ./dist/index.js ./src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.1.6",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
