@@ -8,6 +8,27 @@ A lightweight Last.fm status API built with Elysia that fetches your recently pl
 * Type-safe responses
 * Built with Bun
 
+## Download
+To download a release, head over to the [Releases tab](https://github.com/2lay/FMStatus/releases) and download the latest release.
+
+### Installation & Running
+#### Binary (Recommended)
+1. After downloading the binary executable, make it executable:
+   ```bash
+   chmod +x ./server
+   ```
+2. Run the server:
+   ```bash
+   ./server
+   ```
+
+#### JavaScript
+1. Run the server:
+   ```bash
+   ./server.js
+   ```
+   
+## Building
 ### Getting Started
 ```bash
 # Clone the repository
