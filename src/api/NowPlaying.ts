@@ -7,14 +7,12 @@ export const NowPlaying = new Elysia()
     .get('/api/nowplaying', async () => {
         const currentTime = Date.now();
         if (cachedSong && (currentTime - lastFetchTime < Number(process.env.CACHE_DURATION))) {
-            console.log("cache")
             return cachedSong;
         }
         
         const latestSong = await getLatestSong();
         cachedSong = latestSong;
         lastFetchTime = currentTime;
-        console.log("fetch")
         return latestSong;
     });
 
