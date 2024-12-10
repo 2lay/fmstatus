@@ -8,7 +8,7 @@ A lightweight Last.fm status API built with Elysia that fetches your recently pl
 * Type-safe responses
 * Built with Bun
 
-## Download *(built only for x86_64)*
+## Download *(built only for x86_64)* TBD
 To download a release, head over to the [Releases tab](https://github.com/2lay/FMStatus/releases) and download the latest release.
 
 ### Installation & Running
