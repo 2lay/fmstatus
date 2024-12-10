@@ -8,50 +8,10 @@ A lightweight Last.fm status API built with Elysia that fetches your recently pl
 * Type-safe responses
 * Built with Bun
 
-## Download *(built only for x86_64)* TBD
-To download a release, head over to the [Releases tab](https://github.com/2lay/FMStatus/releases) and download the latest release.
-
-### Installation & Running
-#### Binary (Recommended)
-1. After downloading the binary executable, make it executable:
-   ```bash
-   chmod +x ./server
-   ```
-2. Run the server:
-   ```bash
-   ./server
-   ```
-
-#### JavaScript
-1. Run the server:
-   ```bash
-   ./server.js
-   ```
-   
-## Building
-### Getting Started
-```bash
-# Clone the repository
-git clone https://github.com/2lay/FMStatus.git
-
-# Install dependencies
-bun install
-
-# Set up environment variables
-cp .env.example .env
-```
-
-Configure your .env file with your Last.fm API credentials. Replace the empty quotes with your actual API key and username:
-```env
-LASTFM_API_KEY=""
-LASTFM_USERNAME=""
-CACHE_DURATION=30000
-USE_SWAGGER=false
-```
 ### Building
 Elysia provides the option to build your application into either a binary executable or a minified JavaScript file. It is recommended to use the binary build for optimal performance and ease of deployment.
 
-#### Binary Build
+#### Binary Build *(recomended)*
 Creates a compiled binary executable:
 ```bash
 bun run build
@@ -85,7 +45,7 @@ chmod +x ./server
 ### Live Demo
 You can view the latest song being played at:
 - [API Endpoint](https://fm.2lay.net/api/nowplaying)
-- [Swagger UI (if enabled)](https://fm.2lay.net/swagger)
+- [Swagger UI](https://fm.2lay.net/swagger)
 
 ### License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
