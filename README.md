@@ -1,3 +1,4 @@
+## FMStatus
 A lightweight Last.fm status API built with Elysia that fetches your recently played tracks.
 ### Features
 * Real-time Last.fm track fetching
