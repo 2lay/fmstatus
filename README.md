@@ -42,10 +42,5 @@ Note that some Linux distros might not like it, so you may need to run:
 chmod +x ./server
 ```
 
-### Live Demo
-You can view the latest song being played at:
-- [API Endpoint](https://fm.2lay.net/api/nowplaying)
-- [Swagger UI](https://fm.2lay.net/swagger)
-
 ### License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
