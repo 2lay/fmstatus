@@ -37,13 +37,6 @@ After building, you can run the application using either method:
 bun ./dist/server.js
 ```
 
-### Example Usage
-```bash
-# Get the currently playing track or the last played one
-curl http://localhost:3000/api/nowplaying
-
-```
-
 Note that some Linux distros might not like it, so you may need to run:
 ```bash
 chmod +x ./server
@@ -81,6 +74,5 @@ If no track is currently playing:
   "isPlaying": false
 }
 ```
-
 ### License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
